@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -50,6 +51,8 @@
             this.DescriptionLabel = new System.Windows.Forms.Label();
             this.SaveButton = new System.Windows.Forms.Button();
             this.ClearButton = new System.Windows.Forms.Button();
+            this.imageList1 = new System.Windows.Forms.ImageList(this.components);
+            this.label11 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -137,7 +140,7 @@
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(469, 175);
+            this.label10.Location = new System.Drawing.Point(347, 179);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(44, 13);
             this.label10.TabIndex = 9;
@@ -202,7 +205,7 @@
             // AMPMComboBox
             // 
             this.AMPMComboBox.FormattingEnabled = true;
-            this.AMPMComboBox.Location = new System.Drawing.Point(526, 171);
+            this.AMPMComboBox.Location = new System.Drawing.Point(397, 176);
             this.AMPMComboBox.Name = "AMPMComboBox";
             this.AMPMComboBox.Size = new System.Drawing.Size(121, 21);
             this.AMPMComboBox.TabIndex = 19;
@@ -233,11 +236,29 @@
             this.ClearButton.Text = "&Clear";
             this.ClearButton.UseVisualStyleBackColor = true;
             // 
+            // imageList1
+            // 
+            this.imageList1.ColorDepth = System.Windows.Forms.ColorDepth.Depth8Bit;
+            this.imageList1.ImageSize = new System.Drawing.Size(16, 16);
+            this.imageList1.TransparentColor = System.Drawing.Color.Transparent;
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label11.Location = new System.Drawing.Point(254, 9);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(264, 37);
+            this.label11.TabIndex = 23;
+            this.label11.Text = "Subject Schedule";
+            // 
             // SubjectScheduleEntry
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.label11);
             this.Controls.Add(this.ClearButton);
             this.Controls.Add(this.SaveButton);
             this.Controls.Add(this.DescriptionLabel);
@@ -291,5 +312,7 @@
         private System.Windows.Forms.Label DescriptionLabel;
         private System.Windows.Forms.Button SaveButton;
         private System.Windows.Forms.Button ClearButton;
+        private System.Windows.Forms.ImageList imageList1;
+        private System.Windows.Forms.Label label11;
     }
 }

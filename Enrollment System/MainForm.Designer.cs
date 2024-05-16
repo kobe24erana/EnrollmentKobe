@@ -36,6 +36,7 @@
             // 
             // SubjectEntryButton
             // 
+            this.SubjectEntryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.SubjectEntryButton.Location = new System.Drawing.Point(101, 391);
             this.SubjectEntryButton.Name = "SubjectEntryButton";
             this.SubjectEntryButton.Size = new System.Drawing.Size(133, 47);

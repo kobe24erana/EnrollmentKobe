@@ -80,7 +80,7 @@
             this.groupBox1.Controls.Add(this.label1);
             this.groupBox1.Location = new System.Drawing.Point(21, 44);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(568, 308);
+            this.groupBox1.Size = new System.Drawing.Size(484, 308);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Subject Information";
@@ -264,12 +264,12 @@
             this.groupBox2.Controls.Add(this.RequisiteTextBox);
             this.groupBox2.Controls.Add(this.label9);
             this.groupBox2.Controls.Add(this.SubjectDataGridView);
-            this.groupBox2.Location = new System.Drawing.Point(21, 367);
+            this.groupBox2.Location = new System.Drawing.Point(21, 358);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Size = new System.Drawing.Size(486, 219);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "groupBox2";
+            this.groupBox2.Text = "Requisite Information";
             // 
             // radioButton2
             // 
@@ -352,6 +352,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.Tan;
             this.ClientSize = new System.Drawing.Size(800, 682);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.ClearButton);
